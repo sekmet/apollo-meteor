@@ -6,4 +6,4 @@ checkNpmVersions({
   'express': '*',
   'graphql': '*',
   'graphql-tools': '*'
-}, 'orionsoft:apollo')
+}, 'sekmet:apollo')
