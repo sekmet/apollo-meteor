@@ -1,10 +1,10 @@
 /* global Package */
 
 Package.describe({
-  name: 'orionsoft:apollo',
+  name: 'sekmet:apollo',
   version: '0.0.6',
   summary: 'A better Apollo integration for Meteor only serverside',
-  git: 'https://github.com/orionsoft/apollo-meteor',
+  git: 'https://github.com/sekmet/apollo-meteor',
   documentation: 'README.md'
 })
 
@@ -22,6 +22,6 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   api.use('ecmascript')
   api.use('tinytest')
-  api.use('orionsoft:apollo')
+  api.use('sekmet:apollo')
   api.mainModule('apollo-tests.js')
 })
